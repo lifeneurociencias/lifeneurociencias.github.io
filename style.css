@@ -267,8 +267,6 @@ nav a:hover {
 
 
 
-
-
 /* Thumbnail Section  */
 .thumbnail{
     position: absolute;
@@ -308,6 +306,7 @@ nav a:hover {
     gap: 10px;
     align-items: center;
 }
+
 .nextPrevArrows button{
     width: 40px;
     height: 40px;
@@ -320,6 +319,7 @@ nav a:hover {
     transition: .5s;
     cursor: pointer;
 }
+
 .nextPrevArrows button:hover{
     background-color: #fff;
     color: #000;
@@ -493,7 +493,6 @@ nav a:hover {
 .footer-col h4{
     font-size: 18px;
     color: #ffffff;
-    text-transform: capitalize;
     margin-bottom: 35px;
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
@@ -519,7 +518,7 @@ nav a:hover {
 
 .footer-col ul li a{
     font-size: 14px;
-    text-transform: capitalize;
+
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
